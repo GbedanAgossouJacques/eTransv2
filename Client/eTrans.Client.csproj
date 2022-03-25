@@ -17,6 +17,7 @@
   <ItemGroup>
     <Folder Include="Pages\Client\" />
     <Folder Include="Pages\Chauffeur\" />
+    <Folder Include="Pages\Transport\" />
   </ItemGroup>
 
 </Project>

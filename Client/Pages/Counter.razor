@@ -1,4 +1,4 @@
-﻿@page "/counter"
+﻿@page "/transport"
 @inject IChauffeurService ChauffeurService
 
 <ul class="list-unstyled">
@@ -16,10 +16,29 @@
                 </a>
                 <p>@user.Description</p>
                 <h5> @user.NumeroDeTelephone</h5>
+                <h5> @user.DateDeNaissance</h5>
             </div>
         </li>
     }
 </ul>
+<p>------ teste-----------</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th style="text-align:center;">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in ChauffeurService.Chauffeurs)
+        {
+            <tr>
+                <td>@user.Nom</td>
+                <td style="text-align:center;">@user.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 
 @code {

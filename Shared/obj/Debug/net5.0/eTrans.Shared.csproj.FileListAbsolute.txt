@@ -1,0 +1,12 @@
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\bin\Debug\net5.0\eTrans.Shared.deps.json
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\bin\Debug\net5.0\eTrans.Shared.dll
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\bin\Debug\net5.0\ref\eTrans.Shared.dll
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\bin\Debug\net5.0\eTrans.Shared.pdb
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.csproj.AssemblyReference.cache
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.AssemblyInfoInputs.cache
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.AssemblyInfo.cs
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.dll
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\ref\eTrans.Shared.dll
+C:\Users\Gbedan Jacques\Desktop\ProjetGenieLogiciel\Application\2019\eTrans\Shared\obj\Debug\net5.0\eTrans.Shared.pdb

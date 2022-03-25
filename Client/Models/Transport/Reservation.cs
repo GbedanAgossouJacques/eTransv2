@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eTrans.Client.Models.Transport
 {
-    internal class Reservation
+    public class Reservation
     {
     }
 }

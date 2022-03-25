@@ -1,12 +1,12 @@
-﻿@page "/fetchdata"
-@using eTrans.Shared
+﻿@page "/historique"
 @inject HttpClient Http
+@inject ITransportService TransportService
 
-<h1>Weather forecast</h1>
+<h1>Historique des transports</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+
+@if (TransportService.Transports == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -15,20 +15,20 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Identifiant</th>
+                <th>Date de commande</th>
+                <th>Distance</th>
+                <th>Prix</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var transport in TransportService.Transports)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@transport.Id</td>
+                    <td>@transport.Datecommande</td>
+                    <td>@transport.Distance</td>
+                    <td>@transport.Prix</td>
                 </tr>
             }
         </tbody>
@@ -36,11 +36,10 @@ else
 }
 
 @code {
-    private WeatherForecast[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        await TransportService.LoadTransports();
     }
 
 }

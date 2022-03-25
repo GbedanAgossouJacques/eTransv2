@@ -1,5 +1,6 @@
 using eTrans.Server.Services.ChauffeurService;
 using eTrans.Server.Services.ClientService;
+using eTrans.Server.Services.TransportService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,7 @@ namespace eTrans.Server
             services.AddRazorPages();
             services.AddScoped<IClientService, ClientService>();
             services.AddScoped<IChauffeurService, ChauffeurService>();
+            services.AddScoped<ITransportService, TransportService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace eTrans.Client.Models.Transport
 {
-    internal class Transport
+    public class Transport
     {
         public int? Id { get; set; }
         public Chauffeur Chauffeur { get; set; } = new Chauffeur();

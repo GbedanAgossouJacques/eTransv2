@@ -25,7 +25,7 @@ namespace eTrans.Client.Models.Visitors
         public bool IsSubscribe { get; set; } = false;
         public override string ToString()
         {
-            return string.Format(" Nom : {0};\n Prenoms : {4};\n Sexe : {1};\n Date de naissance : {2};\n Numero de telephone: {3}", Nom, Prenoms, Sex, DateOfBirth, TelNumero, Prenoms); 
+            return string.Format(" Nom : {0};\n Prenoms : {4};\n Sexe : {1};\n Date de naissance : {2};\n Numero de telephone: {3}", Nom, Sex, DateOfBirth, TelNumero, Prenoms); 
         }
 
     }
